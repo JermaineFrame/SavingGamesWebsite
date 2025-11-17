@@ -1,0 +1,297 @@
+.console-details-page {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.console-header {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+}
+
+.console-image-large {
+  position: relative;
+  height: 400px;
+  background: linear-gradient(135deg, var(--bg-color), var(--surface-color));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border-color);
+}
+
+.console-icon-large {
+  font-size: 10rem;
+  opacity: 0.5;
+}
+
+.console-generation-badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.console-header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.console-manufacturer-tag {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.console-name {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.console-release {
+  font-size: 1.3rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.console-era-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.75rem 1.25rem;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 8px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.console-era-link:hover {
+  background: rgba(99, 102, 241, 0.2);
+  transform: translateX(5px);
+}
+
+.console-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.console-content section {
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.console-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.75rem;
+}
+
+.console-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.spec-item {
+  background: var(--bg-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.spec-item:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-4px);
+}
+
+.spec-item.highlight {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  border-color: var(--primary-color);
+}
+
+.spec-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.spec-value {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.game-card {
+  background: var(--bg-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.game-card:hover {
+  border-color: var(--secondary-color);
+  transform: translateX(8px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
+}
+
+.game-icon {
+  font-size: 2rem;
+}
+
+.game-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.era-context-card {
+  background: var(--bg-color);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 6px solid var(--primary-color);
+}
+
+.era-context-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.era-context-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.era-events {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: var(--surface-color);
+  border-radius: 8px;
+}
+
+.era-events h4 {
+  font-size: 1rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.era-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.era-events li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-color);
+}
+
+.era-events li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.view-era-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: gap 0.3s ease;
+}
+
+.view-era-link:hover {
+  gap: 1rem;
+}
+
+.console-not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.console-not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+@media (max-width: 968px) {
+  .console-header {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .console-image-large {
+    height: 300px;
+  }
+
+  .console-icon-large {
+    font-size: 6rem;
+  }
+
+  .console-name {
+    font-size: 2rem;
+  }
+
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+}

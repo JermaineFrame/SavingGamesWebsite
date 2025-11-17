@@ -1,0 +1,204 @@
+[
+  {
+    "id": "early-consoles",
+    "title": "Early Home Consoles",
+    "category": "Hardware",
+    "eraId": "golden-age",
+    "images": [
+      {
+        "id": "atari-2600-1",
+        "title": "Atari 2600 Console",
+        "description": "The iconic wood-grain design of the Atari 2600",
+        "url": "/images/hardware/atari-2600-console.jpg",
+        "year": 1977
+      },
+      {
+        "id": "atari-2600-2",
+        "title": "Atari 2600 Cartridges",
+        "description": "A collection of classic Atari 2600 game cartridges",
+        "url": "/images/hardware/atari-2600-cartridges.jpg",
+        "year": 1977
+      },
+      {
+        "id": "colecovision",
+        "title": "ColecoVision",
+        "description": "The ColecoVision brought arcade-quality graphics home",
+        "url": "/images/hardware/colecovision.jpg",
+        "year": 1982
+      }
+    ]
+  },
+  {
+    "id": "nintendo-nes",
+    "title": "Nintendo Entertainment System",
+    "category": "Hardware",
+    "eraId": "crash-recovery",
+    "images": [
+      {
+        "id": "nes-console",
+        "title": "NES Console",
+        "description": "The console that saved the video game industry",
+        "url": "/images/hardware/nes-console.jpg",
+        "year": 1985
+      },
+      {
+        "id": "nes-controller",
+        "title": "NES Controller",
+        "description": "The iconic rectangular controller with D-pad",
+        "url": "/images/hardware/nes-controller.jpg",
+        "year": 1985
+      },
+      {
+        "id": "nes-zapper",
+        "title": "NES Zapper",
+        "description": "The light gun accessory for games like Duck Hunt",
+        "url": "/images/hardware/nes-zapper.jpg",
+        "year": 1985
+      },
+      {
+        "id": "rob-robot",
+        "title": "R.O.B. Robot",
+        "description": "The Robotic Operating Buddy that helped market the NES",
+        "url": "/images/hardware/rob-robot.jpg",
+        "year": 1985
+      }
+    ]
+  },
+  {
+    "id": "16-bit-era",
+    "title": "16-Bit Console Wars",
+    "category": "Hardware",
+    "eraId": "console-wars",
+    "images": [
+      {
+        "id": "genesis-console",
+        "title": "Sega Genesis Model 1",
+        "description": "The original Sega Genesis with its distinctive design",
+        "url": "/images/hardware/genesis-console.jpg",
+        "year": 1988
+      },
+      {
+        "id": "snes-console",
+        "title": "Super Nintendo",
+        "description": "The Super Nintendo Entertainment System",
+        "url": "/images/hardware/snes-console.jpg",
+        "year": 1990
+      },
+      {
+        "id": "sega-cd",
+        "title": "Sega CD",
+        "description": "The CD-ROM add-on for the Genesis",
+        "url": "/images/hardware/sega-cd.jpg",
+        "year": 1991
+      },
+      {
+        "id": "super-game-boy",
+        "title": "Super Game Boy",
+        "description": "Play Game Boy games on your SNES",
+        "url": "/images/hardware/super-game-boy.jpg",
+        "year": 1994
+      }
+    ]
+  },
+  {
+    "id": "playstation-era",
+    "title": "PlayStation Revolution",
+    "category": "Hardware",
+    "eraId": "3d-revolution",
+    "images": [
+      {
+        "id": "ps1-console",
+        "title": "PlayStation Console",
+        "description": "Sony's original PlayStation that changed gaming forever",
+        "url": "/images/hardware/ps1-console.jpg",
+        "year": 1994
+      },
+      {
+        "id": "ps1-controller",
+        "title": "PlayStation DualShock Controller",
+        "description": "The controller that introduced analog sticks and rumble",
+        "url": "/images/hardware/dualshock.jpg",
+        "year": 1997
+      },
+      {
+        "id": "ps1-memory-card",
+        "title": "PlayStation Memory Card",
+        "description": "Essential for saving your game progress",
+        "url": "/images/hardware/ps1-memory-card.jpg",
+        "year": 1994
+      }
+    ]
+  },
+  {
+    "id": "handheld-history",
+    "title": "Handheld Gaming Evolution",
+    "category": "Hardware",
+    "eraId": "modern-era",
+    "images": [
+      {
+        "id": "game-boy",
+        "title": "Nintendo Game Boy",
+        "description": "The handheld that started it all",
+        "url": "/images/hardware/game-boy.jpg",
+        "year": 1989
+      },
+      {
+        "id": "game-gear",
+        "title": "Sega Game Gear",
+        "description": "Sega's full-color handheld competitor",
+        "url": "/images/hardware/game-gear.jpg",
+        "year": 1990
+      },
+      {
+        "id": "gba",
+        "title": "Game Boy Advance",
+        "description": "32-bit handheld gaming power",
+        "url": "/images/hardware/gba.jpg",
+        "year": 2001
+      },
+      {
+        "id": "nintendo-ds",
+        "title": "Nintendo DS",
+        "description": "Dual screens and touch gaming innovation",
+        "url": "/images/hardware/nintendo-ds.jpg",
+        "year": 2004
+      },
+      {
+        "id": "psp",
+        "title": "PlayStation Portable",
+        "description": "Sony's powerful multimedia handheld",
+        "url": "/images/hardware/psp.jpg",
+        "year": 2004
+      }
+    ]
+  },
+  {
+    "id": "arcade-cabinets",
+    "title": "Classic Arcade Cabinets",
+    "category": "Arcade",
+    "eraId": "golden-age",
+    "images": [
+      {
+        "id": "pac-man-cabinet",
+        "title": "Pac-Man Arcade Cabinet",
+        "description": "The iconic yellow cabinet that became a cultural phenomenon",
+        "url": "/images/arcade/pac-man-cabinet.jpg",
+        "year": 1980
+      },
+      {
+        "id": "donkey-kong-cabinet",
+        "title": "Donkey Kong Arcade",
+        "description": "Where Mario made his first appearance",
+        "url": "/images/arcade/donkey-kong-cabinet.jpg",
+        "year": 1981
+      },
+      {
+        "id": "space-invaders-cabinet",
+        "title": "Space Invaders Cabinet",
+        "description": "The game that started the golden age",
+        "url": "/images/arcade/space-invaders-cabinet.jpg",
+        "year": 1978
+      }
+    ]
+  }
+]
