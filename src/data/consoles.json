@@ -1,0 +1,189 @@
+[
+  {
+    "id": "atari-2600",
+    "name": "Atari 2600",
+    "manufacturer": "Atari",
+    "releaseYear": 1977,
+    "generation": 2,
+    "eraId": "golden-age",
+    "description": "The console that brought arcade gaming into homes and established the cartridge-based system.",
+    "specs": {
+      "cpu": "MOS Technology 6507 @ 1.19 MHz",
+      "ram": "128 bytes",
+      "graphics": "Television Interface Adaptor (TIA)"
+    },
+    "notableGames": ["Space Invaders", "Pac-Man", "Pitfall!"],
+    "unitsSold": "30 million",
+    "imageUrl": "/images/consoles/atari-2600.jpg"
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System (NES)",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1985,
+    "generation": 3,
+    "eraId": "crash-recovery",
+    "description": "The console that revived the video game industry after the 1983 crash and introduced quality control with the Nintendo Seal of Quality.",
+    "specs": {
+      "cpu": "Ricoh 2A03 @ 1.79 MHz",
+      "ram": "2 KB",
+      "graphics": "Picture Processing Unit (PPU)"
+    },
+    "notableGames": ["Super Mario Bros.", "The Legend of Zelda", "Metroid", "Mega Man 2"],
+    "unitsSold": "61.91 million",
+    "imageUrl": "/images/consoles/nes.jpg"
+  },
+  {
+    "id": "genesis",
+    "name": "Sega Genesis",
+    "manufacturer": "Sega",
+    "releaseYear": 1988,
+    "generation": 4,
+    "eraId": "console-wars",
+    "description": "Sega's 16-bit powerhouse that challenged Nintendo's dominance with 'blast processing' and edgier marketing.",
+    "specs": {
+      "cpu": "Motorola 68000 @ 7.6 MHz",
+      "ram": "64 KB",
+      "graphics": "Yamaha YM7101 VDP"
+    },
+    "notableGames": ["Sonic the Hedgehog", "Streets of Rage 2", "Phantasy Star IV"],
+    "unitsSold": "30.75 million",
+    "imageUrl": "/images/consoles/genesis.jpg"
+  },
+  {
+    "id": "snes",
+    "name": "Super Nintendo Entertainment System (SNES)",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1990,
+    "generation": 4,
+    "eraId": "console-wars",
+    "description": "Nintendo's 16-bit masterpiece featuring Mode 7 graphics and some of the greatest games ever made.",
+    "specs": {
+      "cpu": "Ricoh 5A22 @ 3.58 MHz",
+      "ram": "128 KB",
+      "graphics": "Picture Processing Unit with Mode 7"
+    },
+    "notableGames": ["Super Mario World", "The Legend of Zelda: A Link to the Past", "Super Metroid", "Chrono Trigger"],
+    "unitsSold": "49.1 million",
+    "imageUrl": "/images/consoles/snes.jpg"
+  },
+  {
+    "id": "playstation",
+    "name": "PlayStation",
+    "manufacturer": "Sony",
+    "releaseYear": 1994,
+    "generation": 5,
+    "eraId": "3d-revolution",
+    "description": "Sony's entry into gaming that revolutionized the industry with CD-ROMs and 3D graphics.",
+    "specs": {
+      "cpu": "MIPS R3000A @ 33.87 MHz",
+      "ram": "2 MB",
+      "graphics": "GPU @ 1 MB VRAM"
+    },
+    "notableGames": ["Final Fantasy VII", "Metal Gear Solid", "Crash Bandicoot", "Resident Evil"],
+    "unitsSold": "102.49 million",
+    "imageUrl": "/images/consoles/playstation.jpg"
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1996,
+    "generation": 5,
+    "eraId": "3d-revolution",
+    "description": "Nintendo's 64-bit console that pioneered 3D gaming with analog control and four-player local multiplayer.",
+    "specs": {
+      "cpu": "NEC VR4300 @ 93.75 MHz",
+      "ram": "4 MB (expandable to 8 MB)",
+      "graphics": "SGI RCP"
+    },
+    "notableGames": ["Super Mario 64", "The Legend of Zelda: Ocarina of Time", "GoldenEye 007", "Mario Kart 64"],
+    "unitsSold": "32.93 million",
+    "imageUrl": "/images/consoles/n64.jpg"
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2",
+    "manufacturer": "Sony",
+    "releaseYear": 2000,
+    "generation": 6,
+    "eraId": "online-gaming",
+    "description": "The best-selling console of all time, also functioning as an affordable DVD player.",
+    "specs": {
+      "cpu": "Emotion Engine @ 294.91 MHz",
+      "ram": "32 MB",
+      "graphics": "Graphics Synthesizer @ 147.46 MHz"
+    },
+    "notableGames": ["Grand Theft Auto: San Andreas", "Shadow of the Colossus", "God of War", "Kingdom Hearts"],
+    "unitsSold": "155 million",
+    "imageUrl": "/images/consoles/ps2.jpg"
+  },
+  {
+    "id": "xbox",
+    "name": "Xbox",
+    "manufacturer": "Microsoft",
+    "releaseYear": 2001,
+    "generation": 6,
+    "eraId": "online-gaming",
+    "description": "Microsoft's powerful entry into console gaming that pioneered mainstream console online gaming with Xbox Live.",
+    "specs": {
+      "cpu": "Intel Pentium III @ 733 MHz",
+      "ram": "64 MB",
+      "graphics": "NVIDIA NV2A @ 233 MHz"
+    },
+    "notableGames": ["Halo: Combat Evolved", "Halo 2", "Star Wars: Knights of the Old Republic"],
+    "unitsSold": "24 million",
+    "imageUrl": "/images/consoles/xbox.jpg"
+  },
+  {
+    "id": "wii",
+    "name": "Nintendo Wii",
+    "manufacturer": "Nintendo",
+    "releaseYear": 2006,
+    "generation": 7,
+    "eraId": "modern-era",
+    "description": "Revolutionary motion-controlled gaming that brought video games to a broader audience.",
+    "specs": {
+      "cpu": "IBM PowerPC Broadway @ 729 MHz",
+      "ram": "88 MB",
+      "graphics": "ATI Hollywood @ 243 MHz"
+    },
+    "notableGames": ["Wii Sports", "Super Mario Galaxy", "The Legend of Zelda: Twilight Princess"],
+    "unitsSold": "101.63 million",
+    "imageUrl": "/images/consoles/wii.jpg"
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4",
+    "manufacturer": "Sony",
+    "releaseYear": 2013,
+    "generation": 8,
+    "eraId": "modern-era",
+    "description": "Sony's HD gaming powerhouse that dominated the eighth generation with exclusive titles and social features.",
+    "specs": {
+      "cpu": "AMD Jaguar 8-core @ 1.6 GHz",
+      "ram": "8 GB GDDR5",
+      "graphics": "AMD Radeon @ 1.84 TFLOPS"
+    },
+    "notableGames": ["The Last of Us Part II", "God of War", "Spider-Man", "Bloodborne"],
+    "unitsSold": "117 million",
+    "imageUrl": "/images/consoles/ps4.jpg"
+  },
+  {
+    "id": "switch",
+    "name": "Nintendo Switch",
+    "manufacturer": "Nintendo",
+    "releaseYear": 2017,
+    "generation": 8,
+    "eraId": "modern-era",
+    "description": "The hybrid console that seamlessly transitions between handheld and TV gaming.",
+    "specs": {
+      "cpu": "NVIDIA Tegra X1 @ 1.02 GHz",
+      "ram": "4 GB",
+      "graphics": "NVIDIA Maxwell architecture"
+    },
+    "notableGames": ["The Legend of Zelda: Breath of the Wild", "Super Mario Odyssey", "Animal Crossing: New Horizons"],
+    "unitsSold": "132 million+",
+    "imageUrl": "/images/consoles/switch.jpg"
+  }
+]

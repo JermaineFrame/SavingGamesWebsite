@@ -1,0 +1,75 @@
+[
+  {
+    "id": "golden-age",
+    "name": "The Golden Age of Arcade",
+    "period": "1978-1983",
+    "description": "The birth of video gaming as a cultural phenomenon, driven by arcade cabinets and the rise of iconic franchises.",
+    "color": "#f59e0b",
+    "keyEvents": [
+      "Space Invaders releases in 1978",
+      "Pac-Man debuts in 1980",
+      "Donkey Kong introduces Mario in 1981"
+    ]
+  },
+  {
+    "id": "crash-recovery",
+    "name": "The Crash and Recovery",
+    "period": "1983-1985",
+    "description": "The North American video game crash of 1983 nearly destroyed the industry, until Nintendo's NES revitalized gaming.",
+    "color": "#ef4444",
+    "keyEvents": [
+      "Video game crash of 1983",
+      "NES launches in North America (1985)",
+      "Super Mario Bros. saves the industry"
+    ]
+  },
+  {
+    "id": "console-wars",
+    "name": "The Console Wars",
+    "period": "1988-1995",
+    "description": "The fierce competition between Sega and Nintendo defined a generation and pushed gaming innovation forward.",
+    "color": "#8b5cf6",
+    "keyEvents": [
+      "Sega Genesis launches (1988)",
+      "Super Nintendo Entertainment System (1990)",
+      "Sonic vs. Mario rivalry begins"
+    ]
+  },
+  {
+    "id": "3d-revolution",
+    "name": "The 3D Revolution",
+    "period": "1995-2001",
+    "description": "Gaming enters the third dimension with PlayStation, Nintendo 64, and groundbreaking 3D titles.",
+    "color": "#06b6d4",
+    "keyEvents": [
+      "PlayStation launches (1994/1995)",
+      "Nintendo 64 and Super Mario 64 (1996)",
+      "The rise of 3D graphics and CD-ROMs"
+    ]
+  },
+  {
+    "id": "online-gaming",
+    "name": "Online Gaming Era",
+    "period": "2001-2006",
+    "description": "Broadband internet transforms gaming with Xbox Live, MMORPGs, and the birth of online multiplayer.",
+    "color": "#10b981",
+    "keyEvents": [
+      "Xbox and Xbox Live launch (2001-2002)",
+      "World of Warcraft releases (2004)",
+      "PlayStation 2 dominates market"
+    ]
+  },
+  {
+    "id": "modern-era",
+    "name": "The Modern Era",
+    "period": "2006-Present",
+    "description": "HD gaming, motion controls, mobile gaming, and the rise of indie developers reshape the industry.",
+    "color": "#ec4899",
+    "keyEvents": [
+      "Nintendo Wii revolution (2006)",
+      "PlayStation 4 and Xbox One (2013)",
+      "Nintendo Switch hybrid gaming (2017)",
+      "PlayStation 5 and Xbox Series X/S (2020)"
+    ]
+  }
+]
