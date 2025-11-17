@@ -88,6 +88,42 @@ The built files will be in the `dist` directory.
 npm run preview
 ```
 
+## Deployment to GitHub Pages
+
+This project is configured to deploy automatically to GitHub Pages.
+
+### Automatic Deployment
+
+The site automatically deploys to GitHub Pages when you push to the `main` branch. The deployment is handled by GitHub Actions.
+
+**Live Site**: `https://jermaineframe.github.io/SavingGamesWebsite/`
+
+### Setup GitHub Pages (First Time)
+
+1. Go to your repository settings on GitHub
+2. Navigate to **Pages** in the sidebar
+3. Under **Source**, select **GitHub Actions**
+4. The workflow will automatically build and deploy on the next push to `main`
+
+### Manual Deployment
+
+You can also deploy manually using:
+
+```bash
+npm run deploy
+```
+
+This will build the project and push to the `gh-pages` branch.
+
+### Local Testing with Production Base Path
+
+To test the production build locally with the correct base path:
+
+```bash
+npm run build
+npm run preview
+```
+
 ## Project Structure
 
 ```
